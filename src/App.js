@@ -4,11 +4,13 @@ import './App.css'
 import UserMenu from './Components/UserMenu';
 import MainContainer from './Components/MainContainer';
 import tasks from './Data/tasks.json'
+import users from './Data/users.json'
 
 export default class App extends Component {
   state = {
     userMenu: false,
-    tasks: tasks
+    tasks: tasks,
+    users:users
   }
   toggleUserMenu() {
     this.setState({ userMenu: !this.state.userMenu })
@@ -22,7 +24,7 @@ export default class App extends Component {
             <UserMenu toggleUserMenu={() => this.toggleUserMenu()}></UserMenu> : null
         }
 
-        <MainContainer tasks={this.state.tasks}></MainContainer>
+        <MainContainer users={this.state.users} tasks={this.state.tasks}></MainContainer>
       </div>
     )
   }

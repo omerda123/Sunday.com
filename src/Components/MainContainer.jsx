@@ -3,7 +3,7 @@ import TasksList from './TasksList'
 export default function MainContainer(props) {
     return (
         <div className="main-container">
-            <TasksList tasks={props.tasks}></TasksList>
+            <TasksList tasks={props.tasks} users={props.users}></TasksList>
            
         </div>
     )

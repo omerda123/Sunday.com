@@ -27,7 +27,7 @@ export default function TasksTable(props) {
                             </thead>
                             <tbody>
                                 {iteration.tasks.map(task => {
-                                    return (<Task taskId={task.taskId} taskName={task.taskName} progress={task.Progress} avatar={task.avatar} priority={task.priority}></Task>)
+                                    return (<Task taskId={task.taskId} taskName={task.taskName} progress={task.Progress} priority={task.priority} assignee={task.assigneeId} users={props.users}></Task>)
                                 })
                                 }
 

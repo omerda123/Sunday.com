@@ -5,6 +5,7 @@
             {
                 "taskId": 1,
                 "taskName": "Task 1",
+                "assigneeId":1,
                 "avatar": "https://pickaface.net/gallery/avatar/cloud34522ec7ee043db.png",
                 "priority": "Medium",
                 "Progress": "50%"
@@ -12,6 +13,7 @@
             {
                 "taskId": 2,
                 "taskName": "Task 2",
+                "assigneeId":2,
                 "avatar": "https://pickaface.net/gallery/avatar/unr_sample_170130_2257_9qgawp.png",
                 "priority": "High",
                 "Progress": "80%"
@@ -19,6 +21,7 @@
             {
                 "taskId": 3,
                 "taskName": "Task 3",
+                "assigneeId":3,
                 "avatar": "https://pickaface.net/gallery/avatar/20151109_144853_2380_sample.png",
                 "priority": "Low",
                 "Progress": "70%"
@@ -31,6 +34,7 @@
             {
                 "taskId": 4,
                 "taskName": "Task 1",
+                "assigneeId":2,
                 "avatar": "https://pickaface.net/gallery/avatar/centurypixel5229a9f0ae77f.png",
                 "priority": "Medium",
                 "Progress": "20%"
@@ -38,6 +42,7 @@
             {
                 "taskId": 5,
                 "taskName": "Task 2",
+                "assigneeId":1,
                 "avatar": "https://pickaface.net/gallery/avatar/acrovin559439058dc7f.png",
                 "priority": "Medium",
                 "Progress": "60%"
@@ -45,6 +50,7 @@
             {
                 "taskId": 6,
                 "taskName": "Task 3",
+                "assigneeId":3,
                 "avatar": "https://pickaface.net/gallery/avatar/pk_karthik556366573d429.png",
                 "priority": "Medium",
                 "Progress": "45%"

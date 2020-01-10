@@ -1,0 +1,26 @@
+[
+    {
+        "userId": 1,
+        "userName": "omerda",
+        "password": "123456",
+        "privateName": "Omer",
+        "surName": "Daniel",
+        "avatar": "https://pickaface.net/gallery/avatar/cloud34522ec7ee043db.png"
+    },
+    {
+        "userId": 2,
+        "userName": "jasmine",
+        "password": "123456",
+        "privateName": "Jasmine",
+        "surName": "Hakimi",
+        "avatar": "https://pickaface.net/gallery/avatar/unr_sample_170130_2257_9qgawp.png"
+    },
+    {
+        "userId": 3,
+        "userName": "pini",
+        "password": "hafini",
+        "privateName": "Pini",
+        "surName": "Hodadadadadadadadad",
+        "avatar": "https://pickaface.net/gallery/avatar/20151109_144853_2380_sample.png"
+    }
+]
