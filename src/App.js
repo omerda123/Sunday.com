@@ -6,6 +6,10 @@ import MainContainer from './Components/MainContainer';
 import LogInForm from './Components/LogInForm'
 import tasks from './Data/tasks.json'
 import users from './Data/users.json'
+import {
+  BrowserRouter as Router,
+} from "react-router-dom";
+
 
 export default class App extends Component {
 
@@ -50,25 +54,32 @@ export default class App extends Component {
     this.setState({listView:listView})
   }
 
+  logOut(){
+    this.setState({loggedIn:false})
+  }
+
 
   render() {
     return (
       <div className="wrapper">
+        <Router>
         <Header toggleUserMenu={() => this.toggleUserMenu()} loggedInUser={this.state.loggedInUser}></Header>
         {
           this.state.userMenu ?
-            <UserMenu toggleUserMenu={() => this.toggleUserMenu()}></UserMenu> : null
+            <UserMenu  logOut={()=>this.logOut()}toggleUserMenu={() => this.toggleUserMenu()}></UserMenu> : null
         }
         {
           this.state.loggedIn ? null :
             <LogInForm userFound={this.state.userFound} retries= {this.state.numOfRetries} handleChange={(e,value) => this.handleChange(e,value)} validateUser={() => this.validateUser()}></LogInForm>
         }
         <MainContainer 
+        loggedInUser={this.state.loggedInUser}
         users={this.state.users} 
         tasks={this.state.tasks}
         toggleView= {(listView) => this.toggleView(listView)}
         listView={this.state.listView}
         ></MainContainer>
+        </Router>
       </div>
     )
   }

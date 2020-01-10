@@ -1,24 +1,25 @@
 import React from 'react'
-import TasksList from './TasksList'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faListAlt } from '@fortawesome/free-regular-svg-icons'
-import { faThLarge } from '@fortawesome/free-solid-svg-icons'
-import GridTask from './GridTask'
-
+import {
+    Switch,
+    Route,
+} from "react-router-dom";
+import Profile from './Profile'
+import Home from './Home'
 
 export default function MainContainer(props) {
     return (
-        <div className="main-container">
-            <div className="icons">
-                <FontAwesomeIcon onClick={()=>props.toggleView(true)} icon={faListAlt} />
-                <FontAwesomeIcon onClick={()=>props.toggleView(false)} icon={faThLarge} />
-            </div>
-            <div> <h1> Team Tasks</h1></div>
-            {
-                props.listView?
-                <TasksList tasks={props.tasks} users={props.users}></TasksList>:
-                <GridTask tasks={props.tasks} users={props.users}></GridTask>
-            }
-        </div>
+            <Switch>
+                <Route exact path="/">
+                    <Home tasks={props.tasks} users={props.users}
+                    toggleView={props.toggleView} listView={props.listView}></Home>
+                </Route> 
+                <Route exact path="/profile">
+                    <Profile loggedInUser={props.loggedInUser}></Profile>
+                </Route>
+            </Switch>
+
+            
     )
+
+
 }

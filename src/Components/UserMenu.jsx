@@ -1,11 +1,12 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 
 export default function UserMenu(props) {
     return (
         <div className="user-menu" onMouseLeave={()=> props.toggleUserMenu()}>
-            <li key="1"> profile </li>
+           <Link to="/profile">profile</Link>
             <hr></hr>
-            <li key="2"> Log out </li>
+            <Link to="/" onClick={()=>props.logOut()}> Log out</Link> 
         </div>
     )
 }
