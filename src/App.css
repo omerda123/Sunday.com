@@ -130,3 +130,61 @@ tbody{
   justify-content: center;
   height: 52px;
 }
+
+.log-in-form{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+  width: 50vw;
+  min-width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #B37FCD;
+  transform: translateX(50%);
+  top: 10%;
+}
+
+.login-form{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  /* height: 40%; */
+  justify-content: space-around;
+  font-size: 16px;
+}
+.login-form a{
+  color:gray;
+  font-size: 15px;
+}
+.login-error p{
+  color:red;
+  font-size: 14px;
+}
+
+.login-button{
+  background-color: #B37FCD;
+  border:0;
+  height: 25px;
+  border-radius: 10px;
+  color:white;
+  font-size: 16px;
+}
+.login-logo{
+  /* width:50%; */
+  flex:1;
+}
+
+a{
+  text-decoration: none;
+}
+.login-container{
+  display: flex;
+  width:80%;
+}
+
+.login-error{
+  height: 60px;
+}
