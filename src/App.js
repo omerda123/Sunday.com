@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Header from './Components/Header';
+import './App.css'
+import UserMenu from './Components/UserMenu';
+import MainContainer from './Components/MainContainer';
+import tasks from './Data/tasks.json'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  state = {
+    userMenu: false,
+    tasks: tasks
+  }
+  toggleUserMenu() {
+    this.setState({ userMenu: !this.state.userMenu })
+  }
+  render() {
+    return (
+      <div className="wrapper">
+        <Header toggleUserMenu={() => this.toggleUserMenu()}></Header>
+        {
+          this.state.userMenu ?
+            <UserMenu toggleUserMenu={() => this.toggleUserMenu()}></UserMenu> : null
+        }
+
+        <MainContainer tasks={this.state.tasks}></MainContainer>
+      </div>
+    )
+  }
 }
-
-export default App;
