@@ -12,7 +12,7 @@ export default function Header(props) {
                 </span>
             </div>
             <div className="top-right">
-                <Avatar image="https://pickaface.net/gallery/avatar/20151109_144853_2380_sample.png" toggleUserMenu={props.toggleUserMenu}></Avatar>
+                <Avatar image={props.loggedInUser.avatar} toggleUserMenu={props.toggleUserMenu}></Avatar>
             </div>
         </div>
     )

@@ -188,3 +188,43 @@ a{
 .login-error{
   height: 60px;
 }
+
+.icons{
+  position: absolute;
+  font-size: 25px;
+  right: 15px;
+  color: #00A1FF;
+}
+.icons svg{
+  margin: 5px;
+}
+
+.tasks-wrapper{
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+}
+
+.task-box{
+  background-color: #B37FCD;
+  color:white;
+  font-size: 20px;
+  width: 20%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin:15px;
+}
+
+.grid-name{
+  width:200px;
+  text-align: center;
+  font-size: 20px;
+}
