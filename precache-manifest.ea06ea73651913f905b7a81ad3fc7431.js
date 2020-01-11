@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3cb4c2879ea75fe56ec01de89a551567",
+    "revision": "bc0ad2de64a9044e1783f9155f84ded5",
     "url": "/Sundy.com/index.html"
   },
   {
-    "revision": "05e256803eba0e5e8032",
+    "revision": "d76f5bb86b2ae9c3cb14",
     "url": "/Sundy.com/static/css/main.b7a2671c.chunk.css"
   },
   {
-    "revision": "da65993f48863439568e",
-    "url": "/Sundy.com/static/js/2.2c2c3f9e.chunk.js"
+    "revision": "721e96c5da491ef47c63",
+    "url": "/Sundy.com/static/js/2.e54980b4.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/Sundy.com/static/js/2.2c2c3f9e.chunk.js.LICENSE"
+    "url": "/Sundy.com/static/js/2.e54980b4.chunk.js.LICENSE"
   },
   {
-    "revision": "05e256803eba0e5e8032",
-    "url": "/Sundy.com/static/js/main.4284a07f.chunk.js"
+    "revision": "d76f5bb86b2ae9c3cb14",
+    "url": "/Sundy.com/static/js/main.e3aadcf4.chunk.js"
   },
   {
     "revision": "a5b6b8f39081bb35f8d5",
