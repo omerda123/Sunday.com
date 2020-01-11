@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ceb558542834c0fd3ba694c80f40783",
+    "revision": "3cb4c2879ea75fe56ec01de89a551567",
     "url": "/Sundy.com/index.html"
   },
   {
-    "revision": "0950e90bbaa4d93ca643",
+    "revision": "05e256803eba0e5e8032",
     "url": "/Sundy.com/static/css/main.b7a2671c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sundy.com/static/js/2.2c2c3f9e.chunk.js.LICENSE"
   },
   {
-    "revision": "0950e90bbaa4d93ca643",
-    "url": "/Sundy.com/static/js/main.5f6ea666.chunk.js"
+    "revision": "05e256803eba0e5e8032",
+    "url": "/Sundy.com/static/js/main.4284a07f.chunk.js"
   },
   {
     "revision": "a5b6b8f39081bb35f8d5",

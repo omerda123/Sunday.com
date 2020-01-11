@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Sundy.com/static/css/main.b7a2671c.chunk.css",
-    "main.js": "/Sundy.com/static/js/main.5f6ea666.chunk.js",
-    "main.js.map": "/Sundy.com/static/js/main.5f6ea666.chunk.js.map",
+    "main.js": "/Sundy.com/static/js/main.4284a07f.chunk.js",
+    "main.js.map": "/Sundy.com/static/js/main.4284a07f.chunk.js.map",
     "runtime-main.js": "/Sundy.com/static/js/runtime-main.b162e5e3.js",
     "runtime-main.js.map": "/Sundy.com/static/js/runtime-main.b162e5e3.js.map",
     "static/js/2.2c2c3f9e.chunk.js": "/Sundy.com/static/js/2.2c2c3f9e.chunk.js",
     "static/js/2.2c2c3f9e.chunk.js.map": "/Sundy.com/static/js/2.2c2c3f9e.chunk.js.map",
     "index.html": "/Sundy.com/index.html",
-    "precache-manifest.da2dc2b535e9b64f498f459c65d13abd.js": "/Sundy.com/precache-manifest.da2dc2b535e9b64f498f459c65d13abd.js",
+    "precache-manifest.b2bad0550916fd95187a2558f925ecac.js": "/Sundy.com/precache-manifest.b2bad0550916fd95187a2558f925ecac.js",
     "service-worker.js": "/Sundy.com/service-worker.js",
     "static/css/main.b7a2671c.chunk.css.map": "/Sundy.com/static/css/main.b7a2671c.chunk.css.map",
     "static/js/2.2c2c3f9e.chunk.js.LICENSE": "/Sundy.com/static/js/2.2c2c3f9e.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b162e5e3.js",
     "static/js/2.2c2c3f9e.chunk.js",
     "static/css/main.b7a2671c.chunk.css",
-    "static/js/main.5f6ea666.chunk.js"
+    "static/js/main.4284a07f.chunk.js"
   ]
 }
