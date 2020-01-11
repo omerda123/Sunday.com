@@ -1,8 +1,8 @@
-##Sunday.com
+## Sunday.com
 
 mockup of Monday.com - Task management system.
 
-##Features:
+## Features:
   - login \ logout
   - get list of users \ tasks from JSON file
   - add task (with form)
