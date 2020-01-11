@@ -9,7 +9,7 @@ import Home from './Home'
 export default function MainContainer(props) {
     return (
         <Switch>
-            <Route exact path="/">
+            <Route path="/Sunday.com">
                 <Home 
                 addTaskMenu = {props.addTaskMenu}
                 addTask = {()=>props.addTask()}
