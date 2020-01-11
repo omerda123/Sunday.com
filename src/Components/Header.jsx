@@ -11,9 +11,9 @@ export default function Header(props) {
             <div className="top-left">
                 <span>
                     <Link to="/"><img src="http://s3.amazonaws.com/general-assets/monday-200x200.png" alt="Logo" className="logo"/> </Link> </span>
-                <span> Sunday </span>
+                <span> Sunday.com </span>
                 <span>
-                    <FontAwesomeIcon className="notification" icon={faBell}></FontAwesomeIcon>
+                &nbsp; &nbsp;   <FontAwesomeIcon className="notification" icon={faBell}></FontAwesomeIcon>
                 </span>
             </div>
             <div className="top-right">

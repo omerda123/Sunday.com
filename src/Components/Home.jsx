@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faListAlt } from '@fortawesome/free-regular-svg-icons'
 import { faThLarge } from '@fortawesome/free-solid-svg-icons'
 import GridTask from './GridTask'
+import AddTask from './AddTask'
 
 export default function Home(props) {
     return (
@@ -17,7 +18,20 @@ export default function Home(props) {
                 <div> <h1> Team Tasks</h1></div>
                 {
                     props.listView ?
-                        <TasksList tasks={props.tasks} users={props.users}></TasksList> :
+                        <>
+                            <TasksList
+                                toggleAddUserMenu= {(value)=>props.toggleAddUserMenu(value)}
+                                tasks={props.tasks}
+                                users={props.users}
+                                createTableAnimation={() => props.createTableAnimation()}
+                                tableClass={props.tableClass}
+                            ></TasksList>
+                            {props.addTaskMenu?
+                            <AddTask  addTask={()=>props.addTask()} handleChange={(e, value) => props.handleChange(e, value)}></AddTask>:
+                            null
+                            }
+                        </>
+                        :
                         <GridTask tasks={props.tasks} users={props.users}></GridTask>
                 }
             </div>

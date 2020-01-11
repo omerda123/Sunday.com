@@ -132,7 +132,7 @@ tbody{
   height: 52px;
 }
 
-.log-in-form{
+.log-in-form , .add-task-form{
   position: absolute;
   display: flex;
   justify-content: center;
@@ -140,7 +140,7 @@ tbody{
   flex-direction: column;
   height: 400px;
   width: 50vw;
-  min-width: 400px;
+  min-width: 450px;
   background-color: white;
   border-radius: 10px;
   border: 2px solid #B37FCD;

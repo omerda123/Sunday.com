@@ -8,17 +8,31 @@ import Home from './Home'
 
 export default function MainContainer(props) {
     return (
-            <Switch>
-                <Route exact path="/">
-                    <Home tasks={props.tasks} users={props.users}
-                    toggleView={props.toggleView} listView={props.listView}></Home>
-                </Route> 
-                <Route exact path="/profile">
-                    <Profile loggedInUser={props.loggedInUser}></Profile>
-                </Route>
-            </Switch>
+        <Switch>
+            <Route exact path="/">
+                <Home 
+                addTaskMenu = {props.addTaskMenu}
+                addTask = {()=>props.addTask()}
+                toggleAddUserMenu={(value)=> props.toggleAddUserMenu(value)}
+                tasks={props.tasks} 
+                users={props.users}
+                toggleView={props.toggleView} 
+                listView={props.listView}
+                createTableAnimation={()=> props.createTableAnimation()}
+                tableClass= {props.tableClass}
+                handleChange={(e, value) => props.handleChange(e, value)}
+                >
 
-            
+                </Home>
+            </Route>
+            <Route exact path="/profile">
+                <Profile loggedInUser={props.loggedInUser}></Profile>
+            </Route>
+
+
+        </Switch>
+
+
     )
 
 
