@@ -22,6 +22,7 @@ export default class App extends Component {
   progress =""
   state = {
     notifications: [],
+    notificationMenu: false,
     taskId: 7,
     tableClass: "active",
     listView: true,
@@ -36,6 +37,12 @@ export default class App extends Component {
   }
   toggleUserMenu() {
     this.setState({ userMenu: !this.state.userMenu })
+  }
+  toggleNotificationMenu() {
+    if (this.state.notificationMenu){
+      this.setState({notifications: [] })
+    }
+    this.setState({ notificationMenu: !this.state.notificationMenu })
   }
   toggleAddUserMenu(iterationName) {
     this.setState({ addTaskMenu: !this.state.addTaskMenu });
@@ -61,6 +68,13 @@ export default class App extends Component {
       tasks:_tasks,
       taskId: this.state.taskId +1 ,
       addTaskMenu:false})
+      this.addNotification("New task added")
+      
+  }
+  addNotification(notification){
+    const _notifications = [...this.state.notifications]
+    _notifications.push(notification);
+    this.setState ({notifications: _notifications})
   }
   handleChange(e, value) {
     switch (value) {
@@ -112,7 +126,7 @@ export default class App extends Component {
     return (
       <div className="wrapper">
         <Router>
-          <Header toggleUserMenu={() => this.toggleUserMenu()} loggedInUser={this.state.loggedInUser}></Header>
+          <Header toggleNotificationMenu={()=> this.toggleNotificationMenu()} notifications={this.state.notifications} notificationMenu={this.state.notificationMenu} toggleUserMenu={() => this.toggleUserMenu()} loggedInUser={this.state.loggedInUser}></Header>
           {
             this.state.userMenu ?
               <UserMenu logOut={() => this.logOut()} toggleUserMenu={() => this.toggleUserMenu()}></UserMenu> : null
