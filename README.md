@@ -1,24 +1,24 @@
 ## Sunday.com
 
-mockup of Monday.com - Task management system.
+mockup of Monday.com - task management system.
 
 ## Features:
-  - login \ logout
-  - get list of users \ tasks from JSON file
-  - add task (with form)
-  - notification bar
-  - toggle between list\grid view
-  - change profile
+  - Login \ logout
+  - Get list of users \ tasks from JSON file
+  - Add task (with form)
+  - Notification bar
+  - Toggle between list\grid view
+  - Change profile
   - React router for nevigation
-  - wrong user \ wrong password error message
-  - working with state
+  - Wrong user \ wrong password error message
+  - Working with state
  
 ## Challanges:
-  - working with JSON files for storing data was difficult for me 
+  - Working with JSON files for storing data was difficult for me 
   - Didn't manage to add animations to react (didnt managed to work with React CSSTransition)
   
 ## Roadmap:
-  - connect to DB
-  - add "my tasks collection"
-  - managing permisions 
-  - adding tests
+  - Connect to DB
+  - Add "my tasks collection"
+  - Managing permisions 
+  - Adding tests
