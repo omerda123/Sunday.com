@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be5ca6b54d19e9ebcb5c624ffa94a3ab",
+    "revision": "b76b5ed435d705e6f0e230a5b729a982",
     "url": "/Sunday.com/index.html"
   },
   {
-    "revision": "2e204b3d7c448fade32b",
+    "revision": "e3d4ebb5445f54056654",
     "url": "/Sunday.com/static/css/main.b7a2671c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sunday.com/static/js/2.e54980b4.chunk.js.LICENSE"
   },
   {
-    "revision": "2e204b3d7c448fade32b",
-    "url": "/Sunday.com/static/js/main.006f67fd.chunk.js"
+    "revision": "e3d4ebb5445f54056654",
+    "url": "/Sunday.com/static/js/main.d249c4c4.chunk.js"
   },
   {
     "revision": "5ab372b7e727d369c8d9",
