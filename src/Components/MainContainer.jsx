@@ -5,11 +5,14 @@ import {
 } from "react-router-dom";
 import Profile from './Profile'
 import Home from './Home'
+import { HashRouter } from "react-router-dom";
+
 
 export default function MainContainer(props) {
     return (
+        <HashRouter basename='/'>
         <Switch>
-            <Route path="/Sunday.com">
+            <Route path="/">
                 <Home 
                 addTaskMenu = {props.addTaskMenu}
                 addTask = {()=>props.addTask()}
@@ -31,7 +34,7 @@ export default function MainContainer(props) {
 
 
         </Switch>
-
+        </HashRouter>
 
     )
 

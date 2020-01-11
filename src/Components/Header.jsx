@@ -10,7 +10,7 @@ export default function Header(props) {
         <div className="nav-bar">
             <div className="top-left">
                 <span>
-                    <Link to="/Sunday.com"><img src="http://s3.amazonaws.com/general-assets/monday-200x200.png" alt="Logo" className="logo" /> </Link> </span>
+                    <Link to="/"><img src="http://s3.amazonaws.com/general-assets/monday-200x200.png" alt="Logo" className="logo" /> </Link> </span>
                 <span className="logo-text"> Sunday.com </span>
                 <span className>
                     &nbsp; &nbsp;   <FontAwesomeIcon onClick={() => props.toggleNotificationMenu()} className="notification" icon={faBell}></FontAwesomeIcon>
