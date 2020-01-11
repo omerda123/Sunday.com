@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Sundy.com/precache-manifest.da473c8feed2c85a6d3eee869362dc07.js"
+  "/Sundy.com/precache-manifest.da2dc2b535e9b64f498f459c65d13abd.js"
 );
 
 self.addEventListener('message', (event) => {
