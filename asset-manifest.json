@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Sundy.com/static/css/main.ce82ea04.chunk.css",
-    "main.js": "/Sundy.com/static/js/main.01699dbf.chunk.js",
-    "main.js.map": "/Sundy.com/static/js/main.01699dbf.chunk.js.map",
+    "main.css": "/Sundy.com/static/css/main.261a0c4c.chunk.css",
+    "main.js": "/Sundy.com/static/js/main.07ef2d95.chunk.js",
+    "main.js.map": "/Sundy.com/static/js/main.07ef2d95.chunk.js.map",
     "runtime-main.js": "/Sundy.com/static/js/runtime-main.b162e5e3.js",
     "runtime-main.js.map": "/Sundy.com/static/js/runtime-main.b162e5e3.js.map",
-    "static/js/2.48deb906.chunk.js": "/Sundy.com/static/js/2.48deb906.chunk.js",
-    "static/js/2.48deb906.chunk.js.map": "/Sundy.com/static/js/2.48deb906.chunk.js.map",
+    "static/js/2.0170e57e.chunk.js": "/Sundy.com/static/js/2.0170e57e.chunk.js",
+    "static/js/2.0170e57e.chunk.js.map": "/Sundy.com/static/js/2.0170e57e.chunk.js.map",
     "index.html": "/Sundy.com/index.html",
-    "precache-manifest.0aac221bb242a6f99607238397aca146.js": "/Sundy.com/precache-manifest.0aac221bb242a6f99607238397aca146.js",
+    "precache-manifest.da473c8feed2c85a6d3eee869362dc07.js": "/Sundy.com/precache-manifest.da473c8feed2c85a6d3eee869362dc07.js",
     "service-worker.js": "/Sundy.com/service-worker.js",
-    "static/css/main.ce82ea04.chunk.css.map": "/Sundy.com/static/css/main.ce82ea04.chunk.css.map",
-    "static/js/2.48deb906.chunk.js.LICENSE": "/Sundy.com/static/js/2.48deb906.chunk.js.LICENSE"
+    "static/css/main.261a0c4c.chunk.css.map": "/Sundy.com/static/css/main.261a0c4c.chunk.css.map",
+    "static/js/2.0170e57e.chunk.js.LICENSE": "/Sundy.com/static/js/2.0170e57e.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.b162e5e3.js",
-    "static/js/2.48deb906.chunk.js",
-    "static/css/main.ce82ea04.chunk.css",
-    "static/js/main.01699dbf.chunk.js"
+    "static/js/2.0170e57e.chunk.js",
+    "static/css/main.261a0c4c.chunk.css",
+    "static/js/main.07ef2d95.chunk.js"
   ]
 }
