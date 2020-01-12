@@ -10,7 +10,7 @@ import { HashRouter } from "react-router-dom";
 
 export default function MainContainer(props) {
     return (
-        <HashRouter basename='/'>
+        <HashRouter basename='/Sunday.com'>
         <Switch>
             <Route path="/">
                 <Home 
