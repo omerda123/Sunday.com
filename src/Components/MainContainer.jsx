@@ -5,12 +5,12 @@ import {
 } from "react-router-dom";
 import Profile from './Profile'
 import Home from './Home'
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter  } from "react-router-dom";
 
 
 export default function MainContainer(props) {
     return (
-        <HashRouter basename='/Sunday.com'>
+        <BrowserRouter  basename='/Sunday.com'>
         <Switch>
             <Route path="/">
                 <Home 
@@ -34,7 +34,7 @@ export default function MainContainer(props) {
 
 
         </Switch>
-        </HashRouter>
+        </BrowserRouter >
 
     )
 
