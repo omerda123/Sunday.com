@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Sunday.com/static/css/main.b7a2671c.chunk.css",
-    "main.js": "/Sunday.com/static/js/main.b070023f.chunk.js",
-    "main.js.map": "/Sunday.com/static/js/main.b070023f.chunk.js.map",
+    "main.js": "/Sunday.com/static/js/main.3e5b456b.chunk.js",
+    "main.js.map": "/Sunday.com/static/js/main.3e5b456b.chunk.js.map",
     "runtime-main.js": "/Sunday.com/static/js/runtime-main.1d8e2154.js",
     "runtime-main.js.map": "/Sunday.com/static/js/runtime-main.1d8e2154.js.map",
     "static/js/2.968f745e.chunk.js": "/Sunday.com/static/js/2.968f745e.chunk.js",
     "static/js/2.968f745e.chunk.js.map": "/Sunday.com/static/js/2.968f745e.chunk.js.map",
     "index.html": "/Sunday.com/index.html",
-    "precache-manifest.0b91cdf46811d56a49740aa357a0dbea.js": "/Sunday.com/precache-manifest.0b91cdf46811d56a49740aa357a0dbea.js",
+    "precache-manifest.24a5406013e97366ccdb1a49c0a7cec9.js": "/Sunday.com/precache-manifest.24a5406013e97366ccdb1a49c0a7cec9.js",
     "service-worker.js": "/Sunday.com/service-worker.js",
     "static/css/main.b7a2671c.chunk.css.map": "/Sunday.com/static/css/main.b7a2671c.chunk.css.map",
     "static/js/2.968f745e.chunk.js.LICENSE": "/Sunday.com/static/js/2.968f745e.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.1d8e2154.js",
     "static/js/2.968f745e.chunk.js",
     "static/css/main.b7a2671c.chunk.css",
-    "static/js/main.b070023f.chunk.js"
+    "static/js/main.3e5b456b.chunk.js"
   ]
 }
